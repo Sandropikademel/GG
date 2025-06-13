@@ -1,10 +1,23 @@
-<div id="game-area">
-  <div class="platform" style="bottom: 0;"></div>
-  <div class="platform" style="bottom: 100px;"></div>
-  <div class="platform" style="bottom: 200px;"></div>
-  
-  <div class="ladder" style="bottom: 0; left: 200px;"></div>
-  <div class="ladder" style="bottom: 100px; left: 200px;"></div>
-  
-  <div id="player"></div>
-</div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mini Donkey Kong</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="game-area">
+    <!-- Plataformas -->
+    <div class="platform" style="bottom: 0;"></div>
+    <div class="platform" style="bottom: 100px;"></div>
+
+    <!-- Escada -->
+    <div class="ladder" style="left: 190px; bottom: 0;"></div>
+
+    <!-- Jogador -->
+    <div id="player" style="left: 100px; bottom: 0;"></div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
