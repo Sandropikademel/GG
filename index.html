@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <title>Mini Donkey Kong</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contador de Cliques</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div id="game-area">
-    <!-- Plataformas -->
-    <div class="platform" style="bottom: 0;"></div>
-    <div class="platform" style="bottom: 100px;"></div>
-
-    <!-- Escada -->
-    <div class="ladder" style="left: 190px; bottom: 0;"></div>
-
-    <!-- Jogador -->
-    <div id="player" style="left: 100px; bottom: 0;"></div>
+  <div class="container">
+    <h1>Contador de Cliques</h1>
+    <p id="contador">0</p>
+    <button id="botao">Clique aqui</button>
+    <button id="resetar">Resetar</button>
   </div>
-
-  <script src="game.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
